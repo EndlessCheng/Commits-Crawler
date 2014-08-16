@@ -15,14 +15,14 @@ def deal(response):
 			break
 		begin = html.find('">', begin, len(html)) + 2
 		end = html.find('</a>', begin, len(html))
-		s = html[begin:end].decode('UTF-8').encode('GBK')
+		s = html[begin:end]
 		fp.write("%3d  %s\n" % (cnt, s))
 		cnt += 1
 
-USERNAME = 'KIDx'
-REPONAME = 'ACdream'
+USERNAME = 'EndlessCheng'
+REPONAME = 'little_girl'
 
-fp = open(USERNAME + '-' + REPONAME + '-commit.txt', 'w')
+fp = open(USERNAME + '-' + REPONAME + '-commits.txt', 'w')
 
 cnt = 1
 i = 1

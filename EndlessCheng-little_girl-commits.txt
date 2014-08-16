@@ -1,0 +1,207 @@
+  1  .
+  2  UVa 10829 后缀数组+单调栈+区域树
+  3  hr数学题
+  4  CF #261E 滚动数组不对？
+  5  save in.txt
+  6  print_multiplication_table 但是关闭IO?
+  7  Python 贪吃蛇
+  8  TC 629.2.C AC!
+  9  TC 629.2.C 糖果 xyz
+ 10  1007
+ 11  HR w6 B
+ 12  C
+ 13  .
+ 14  UVa 1232
+ 15  CF 343D
+ 16  CF 359D
+ 17  CF 91C
+ 18  .
+ 19  hdu 4857
+ 20  HDU 2059
+ 21  HDU 2138
+ 22  .
+ 23  .
+ 24  !!
+ 25  CF 400E
+ 26  cf
+ 27  CF 301B
+ 28  CF 387E
+ 29  UVa 740
+ 30  UVa 11470
+ 31  完全数判定
+ 32  UVa 628
+ 33  UVa 10622
+ 34  UVa 10611
+ 35  POJ 1609
+ 36  add comparator
+ 37  UVa 170 AC
+ 38  UVa 10311
+ 39  UVa 356
+ 40  UVa 170
+ 41  UVa 762
+ 42  UVa 884
+ 43  UVa 10824
+ 44  UVa 10824
+ 45  UVa 10824
+ 46  位
+ 47  cf 420B 无限in out的版本
+ 48  CF 420B outcache
+ 49  UVa 12219
+ 50  UVa 1406
+ 51  1614
+ 52  448c
+ 53  448C
+ 54  A
+ 55  UVa 1635
+ 56  cf 111111
+ 57  UVa 1220
+ 58  cf 443A
+ 59  UVa 1354
+ 60  CF 440C
+ 61  ok F
+ 62  ShangHai F
+ 63  ShangHai I
+ 64  A
+ 65  J
+ 66  clear
+ 67  E
+ 68  I
+ 69  C
+ 70  D
+ 71  global
+ 72  C
+ 73  B
+ 74  A
+ 75  UVa 10723
+ 76  cf a
+ 77  uva
+ 78  UVa 10118
+ 79  acdream 15 J
+ 80  FZU 2144
+ 81  acdream 15 H
+ 82  UVa 1626
+ 83  UVa 12563
+ 84  UVa 12563
+ 85  UVa 1625
+ 86  UVa 1625 (Fail)
+ 87  UVa 11809
+ 88  !!SAVE!!UVa 1625
+ 89  UVa 1625
+ 90  Python
+ 91  UVa 1625
+ 92  UVa 10078
+ 93  UVa 1625
+ 94  Revert "Revert "let me see""
+ 95  Revert "let me see"
+ 96  cool
+ 97  let me see
+ 98  <a href="#" class="js-details-target">…
+ 99  Revert "Update in.txt"
+100  Merge pull request
+101  from EndlessCheng/world
+102  Update in.txt
+103  UVa 10199
+104  UVa 555
+105  output a pyramid
+106  python challenge
+107  修改cnt值
+108  分隔出USERNAME
+109  小修改
+110  爬自己的repolist-name
+111  爬虫学习-001
+112  打印当前目录下的文件个数
+113  计算pi
+114  试试虚函数
+115  clear
+116  ..
+117  UVa 429
+118  for cf 253
+119  UVa 247
+120  UVa 485 大数
+121  UVa 10067
+122  UVa 315
+123  UVa 558
+124  UVa 558
+125  POJ 1436
+126  .
+127  UVa 10102
+128  UVa 10299
+129  UVa 11743
+130  UVa 10147
+131  UVa 12108
+132  UVa 1590 WA
+133  UVa 220
+134  UVa 201
+135  UVa 1589
+136  UVa 213
+137  UVa 1442 little change
+138  UVa 1442
+139  UVa 11093
+140  O(nlogn)打印lis
+141  O(nlogn)打印lis
+142  UVa 124 WA!!!
+143  UVa 1001
+144  UVa 821
+145  UVa 343
+146  UVa 10219
+147  UVa 130 约瑟夫环
+148  UVa 10583
+149  UVa 534
+150  UVa 661
+151  UVa 576
+152  UVa 478 点在三角形内部
+153  UVa 389
+154  UVa 10409
+155  =.=
+156  UVa 532 BFS
+157  UVa 11094
+158  UVa 260
+159  Uva 11286 Conformity
+160  怒舔Splay - 记UVa 1611
+161  怒舔Splay - 记UVa 1611
+162  最大单调栈
+163  test init_closure
+164  set and insert
+165  抛物线模板
+166  带Acc的多重背�
+167  C okok
+168  C add commit
+169  C 是牛逼呀。。
+170  clear
+171  C 自己敲的线段树，丑的一B
+172  C 求教线段树正确姿势。。。
+173  I WA
+174  prepare for acdream
+175  small modification
+176  UVa 11809 - Floating-Point Numbers
+177  small modification
+178  For CF Zepto Code Rush 2014
+179  UVA 11809 - Floating-Point Numbers
+180  UVa 11809 - Floating-Point Numbers
+181  E 膜拜甫神
+182  E
+183  I
+184  ACdream 13 C
+185  H ...
+186  G 二分
+187  E
+188  E WA
+189  C MLE
+190  J
+191  D
+192  A
+193  hunnu I
+194  UVa 11562 -with convex algorithm
+195  UVa 11562 - Hard Evidence
+196  G
+197  Create README.md
+198  H
+199  E
+200  clear for XTU
+201  v3
+202  v2
+203  v1
+204  ZOJ 3719
+205  init
+206  ok, ok
+207  init
