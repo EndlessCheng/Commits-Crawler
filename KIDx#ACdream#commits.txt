@@ -1,0 +1,300 @@
+  1  contest开始或结束不再刷新页面，用逻辑处理代替
+  2  contest完善url非法输入处理
+  3  重构比赛页面的变量传递
+  4  调整比赛提交窗口的大小
+  5  update contestlist.js
+  6  update layout.jade
+  7  no need to mkdir after addproblem
+  8  Update Version to v1.4.0
+  9  fix
+ 10  增加addrouter脚本，方便开发者新增页面或功能模块
+ 11  重命名
+ 12  添加注释
+ 13  使用express4.x的router令功能模块化，方便多人开发；URL路径有所更改
+ 14  update README
+ 15  add gruntfile and change the path to js/css
+ 16  update post_list & 修复跑马灯出现概率不平等的问题
+ 17  Update Version to v1.3.2
+ 18  doSubmit使用async实现并行(index.js)
+ 19  getRanklist使用async实现并行(index.js)
+ 20  getProblem使用async实现并行(index.js)
+ 21  getStatus使用async实现并行(index.js)
+ 22  getOverview使用async实现并行(index.js)
+ 23  比赛提交代码时检查所交题目是否属于该比赛
+ 24  fix D_submit.jade
+ 25  fix editproblem.jade
+ 26  fix standings.jade
+ 27  fix body-parser's setting
+ 28  fix statistic.jade
+ 29  fix status.jade
+ 30  update layout.jade
+ 31  fix problem.jade
+ 32  remove fixDB
+ 33  add fixDB
+ 34  change express-session's setting
+ 35  update onecontest.js
+ 36  update index.jade
+ 37  Update Version to v1.3.1
+ 38  update ranklist.jade
+ 39  fix problemset.jade
+ 40  problem页面增加标签编辑提示
+ 41  VIP Contest结束后不可提交
+ 42  比赛通过提交代码跳转到status后显示自己的记录
+ 43  fix style.css
+ 44  比赛结束后看到题目的problemID
+ 45  Merge pull request #7 from wangkechun/master
+
+Ranklist增加一列AC_Ratio
+ 46  Merge pull request #7 from wangkechun/master
+
+Ranklist增加一列AC_Ratio
+ 47  增加AC_Ratio
+ 48  重构数据库连接
+ 49  生产环境显式启动view cache
+ 50  调整了生产环境和开发环境，把socket核心代码独立出来
+ 51  修复ranklist以及standings页面右上角个人信息不正确的bug
+ 52  Update Version to v1.3.0
+ 53  fix editproblem.jade
+ 54  change body-parser's setting
+ 55  fix user.jade
+ 56  remove method-override
+ 57  remove cookie-parser
+ 58  remove connect
+ 59  change express-session's setting
+ 60  migrate socket.io to 1.0+
+ 61  remove csv
+ 62  优化主页'更多'按钮
+ 63  修改rating统计图的显示: 增量为0时显示绿色的+0
+ 64  设置rating为整数避免排名不正确的问题
+ 65  移除无用依赖
+ 66  模板引擎由使用ejs改为使用jade，改善前端逻辑，修复部分bug
+ 67  新增撤销比赛Rating的功能(for admin)
+ 68  使用async代替dfs深层嵌套
+ 69  update authorization of socket.io
+ 70  修复standings不显示自己rating的bug
+ 71  statistic页面自己的记录增加高亮
+ 72  Update Version to v1.2.0
+ 73  重构ranklist(ACM规则)，新增standings(rating)
+ 74  ejs去掉无用的注释
+ 75  update editproblem.ejs
+ 76  update contest.ejs
+ 77  add index for topics
+ 78  add index for ranks
+ 79  add index for comments
+ 80  add index for contests
+ 81  add index for users
+ 82  fix index.ejs
+ 83  比赛提交代码成功时才跳转到status
+ 84  1天内有回复为hot帖改为8小时内
+ 85  add index for solutions
+ 86  调整rating统计图的显示
+ 87  将上传数据文件大小限制放宽到50m
+ 88  全局变量放到layout.ejs
+ 89  使用res.locals简化代码并且重构全局消息提醒
+ 90  index.js代码规范化
+ 91  status页面：对于属于比赛或者隐藏题目的提交，只有提交的主人、admin、对应题目的manager才能看到其详细参数
+ 92  Update README.md
+ 93  views代码规范化
+ 94  style.css代码规范化
+ 95  user.js代码规范化
+ 96  updatestatus.js代码规范化
+ 97  topic.js代码规范化
+ 98  submit.js代码规范化
+ 99  status.js代码规范化
+100  statistic.js代码规范化
+101  singleRejudge.js代码规范化
+102  ranklist.js代码规范化
+103  problemset.js代码规范化
+104  problem.js代码规范化
+105  onetopic.js代码规范化
+106  onecontest.js代码规范化
+107  contest.js代码规范化
+108  avatar.js代码规范化
+109  addtopic.js代码规范化
+110  addproblem.js代码规范化
+111  addcontest.js代码规范化
+112  Global.js代码规范化
+113  settings.js代码规范化
+114  models代码规范化
+115  index.js代码规范化
+116  app.js代码规范化
+117  Update Version to v1.1.5
+118  删除没用的ID初始化函数
+119  update Global.js
+120  比赛discuss的帖子增加时间以及最后回复者的显示
+121  修改比赛广播消息部分逻辑
+122  新增修改题目管理员的功能(for admin)
+123  fix addcontest.ejs
+124  更换部分图标并优化弹窗的关闭图标
+125  fix models/contestrank.js
+126  fix getRanklist function (index.js)
+127  修复自己的金银铜显示不准确的bug
+128  update IsRegCon function (index.ejs)
+129  更新主页
+130  一天内有回复为hot帖
+131  update for nanae
+132  update README.md
+133  update package.json
+134  Update Version to v1.1.4
+135  update problem.ejs
+136  update acdream_db
+137  problem manager可以在contest overview切换自己出的题目的隐藏状态
+138  重构题目的toggleHide，另外problem manager也可以切换题目隐藏状态了
+139  彻底移除题目难易度相关功能
+140  前端移除题目难易度的显示
+141  fix 金银铜
+142  金银铜名额改为10% 20% 30%
+143  调整rating的计算
+144  样式兼容
+145  remove Topic.find
+146  remove FixDB
+147  重构Forum
+148  比赛排名增加浮动表头
+149  移除旧的添加用户到比赛功能
+150  新增一键将回复人添加到比赛并且自动回复的功能(for admin)
+151  update edit btn in onetopic.ejs
+152  update add icon and fix addcontest.js
+153  update user.js
+154  Update Version to v1.1.3
+155  fix onecontest.ejs
+156  problem的manager可以看该problem的所有提交代码
+157  恢复addcontest中误删的按钮样式
+158  修复透明度设置错误导致IE9及以下看不到按钮的bug
+159  增加单个提交rejudge功能(for admin)
+160  rejudge增加确认框提醒
+161  update onecontest.ejs
+162  每10秒更新一次排名改为每30秒更新一次
+163  修复比赛排名rejudge后不正确的bug
+164  fix delComment in index.ejs
+165  update layout.ejs
+166  Update Version to v1.1.2
+167  Merge branch 'master' of github.com:KIDx/ACdream
+168  重构显示回复的逻辑
+169  add <b> to white list for xss
+170  论坛帖子增加编辑和删除功能，改善回复功能
+171  修复比赛查询不了指定用户的提交的bug
+172  忽略上传图片格式大小写
+173  修复管理员添加用户到比赛后，用户需要刷新才能提交代码的问题
+174  设置个人rating统计图的字体
+175  前端暂时屏蔽掉Java
+176  update Highcharts to v4.0.1
+177  增加个人Rating统计图
+178  重构statistic页面的统计逻辑
+179  update acdream_db
+180  update version to v1.1.1
+181  加新题初始化为隐藏
+182  $nor --> $ne
+183  Merge pull request #4 from nanaezheng/patch-1
+
+Update post_list.ejs
+184  Merge pull request #4 from nanaezheng/patch-1
+
+Update post_list.ejs
+185  fix app.js
+186  Update post_list.ejs
+187  use connect-redis to store session instead of connect-mongo
+188  use redis to store socket connections
+189  add production and development env for socket
+190  update app.js
+191  重构上传代码的逻辑
+192  重构上传文件的逻辑
+193  update package.json
+194  Update README.md
+195  Update README.md
+196  remove Styles for ckeditor
+197  add white list for xss
+198  fix CHANGELOG
+199  update version to v1.1.0
+200  update version to v1.1.0
+201  fix contest rank page
+202  remove FixDB and update index.ejs
+203  修复比赛排名
+204  onecontest的post失败重连机制改为手动
+205  恢复比赛排名每10秒自动更新1次
+206  修复了不能查询java RE记录的bug
+207  增加5秒内只能提交1次代码的限制
+208  remove console
+209  update Solution.findOne
+210  problem page add %I64 alert feature
+211  onecontest page add %I64 alert feature
+212  submit page add %I64 alert feature
+213  change db name to acdream_db
+214  Merge pull request #2 from wangkechun/master
+
+修复 xss 漏洞
+215  Merge pull request #2 from wangkechun/master
+
+修复 xss 漏洞
+216  修复 xss 漏洞 by  e纯.
+217  update favicon
+218  彻底移除csrf模块
+219  修改calRating
+220  加题模块取消csrf系统
+221  取消使用csrf系统, 比赛rank取消自动刷新
+222  修改rating的计算
+223  设置cookie过期时间为一个小时
+224  status页面其他人看不到admin提交记录的详细参数
+225  修复getRank没有按rating排的bug
+226  完善rating系统
+227  fix ranklist.ejs
+228  ranklist查看参赛者时仍可查询
+229  fix ranklist.ejs
+230  Contest Rank 自己的排名永远可见
+231  ranklist自己的排名永远可见
+232  修复比赛排名规则改善后排名不准确的bug
+233  比赛排名自动刷新改善用户体验
+234  改善比赛排名
+235  改善广播消息的交互
+236  'go to top' 改为一直显示
+237  统计rating增加确认框
+238  回退确定无用的setTimeout
+239  比赛的rank页每10秒自动点击刷新
+240  修复比赛页面可以快速点击多次Submit一下提交多个的问题
+241  add "fork me on github"
+242  fix addcontest.ejs
+243  优化"go to top"
+244  比赛可设置罚时
+245  update version to v1.0.2
+246  为Discuss增加实时提醒
+247  update onecontest.js
+248  改善Discuss的交互
+249  修复admin不能发Discuss的bug
+250  增加"go to top"功能
+251  增加CSRF防御系统
+252  所有$.post改为$.ajax，并且改善所有交互
+253  add jquery.cookie.js
+254  update version to v1.0.1
+255  所有帖子改为一天内为新，论坛增加新贴提醒
+256  update post_list.ejs
+257  add 'remember me' for login
+258  改善登录交互
+259  公告独立出来：post_list.ejs
+260  fix layout.ejs
+261  update layout.ejs
+262  update index.ejs
+263  update ranklist.ejs
+264  update onecontest.ejs
+265  update problem.ejs
+266  update index.ejs
+267  修改主页blog
+268  首页比赛按开始时间排序
+269  首页布局变更
+270  主页的公告7天内为新帖
+271  fix index.ejs
+272  完善统计rating的逻辑
+273  首页增加英雄榜和博客链接
+274  增加rating显示逻辑
+275  每250ms拿一次pending的结果改为每1000ms拿一次
+276  修改跑马灯文字
+277  修复上传文件后文件名会变的问题
+278  去掉引入的缺陷
+279  增加计算rating的部分逻辑
+280  remove uploads folder
+281  add public/img/avatar floder
+282  add public/img/prob folder
+283  add data of problem 1000
+284  add data folder
+285  Merge github.com:KIDx/ACdream
+286  Delete README.md
+287  first commit
+288  first commit

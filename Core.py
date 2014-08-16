@@ -25,8 +25,8 @@ def deal(response):
 		fp.write("%3d  %s\n" % (cnt, s))
 		cnt += 1
 
-USERNAME = 'EndlessCheng'
-REPONAME = 'little_girl'
+USERNAME = 'rogerwang' # 修改这里
+REPONAME = 'node-webkit' # 修改这里
 
 fp = open(USERNAME + '#' + REPONAME + '#commits.txt', 'w')
 
