@@ -2,6 +2,8 @@
 
 import urllib2  
 
+EscapeCharacterDict = {'&amp;':'&', '&lt;':'<', '&gt;':'>', '&quot;':'"', '&#39;':'\''}
+
 def deal(response):
 	html = response.read() 
 
@@ -9,6 +11,7 @@ def deal(response):
 	global fp
 	STEP = 24
 	end = 1000
+	
 	while True:
 		begin = html.find('data-pjax="true" title=', end, len(html)) #获取commit首位置
 		if(begin == -1):
@@ -17,6 +20,8 @@ def deal(response):
 		keywords = '">' if html[begin - 1] == '"' else '\'>'
 		end = html.find(keywords, begin, len(html))
 		s = html[begin:end]
+		for k, v in EscapeCharacterDict.iteritems():
+			s = s.replace(k, v)
 		fp.write("%3d  %s\n" % (cnt, s))
 		cnt += 1
 
