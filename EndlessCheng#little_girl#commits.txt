@@ -50,6 +50,8 @@
  50  UVa 1406
  51  1614
  52  448c
+
+DP
  53  448C
  54  A
  55  UVa 1635
@@ -91,117 +93,141 @@
  91  UVa 1625
  92  UVa 10078
  93  UVa 1625
- 94  Revert "Revert "let me see""
- 95  Revert "let me see"
+ 94  Revert &quot;Revert &quot;let me see&quot;&quot;
+
+This reverts commit a42b8fe6ee2586d05106ca9c46d639bba61d8216.
+ 95  Revert &quot;let me see&quot;
+
+This reverts commit 052c26f98bd258b3288531e71a02ae3496c9b00d.
+
+Conflicts:
+	in.txt
  96  cool
  97  let me see
- 98  <a href="#" class="js-details-target">…
- 99  Revert "Update in.txt"
-100  Merge pull request
-101  from EndlessCheng/world
-102  Update in.txt
-103  UVa 10199
-104  UVa 555
-105  output a pyramid
-106  python challenge
-107  修改cnt值
-108  分隔出USERNAME
-109  小修改
-110  爬自己的repolist-name
-111  爬虫学习-001
-112  打印当前目录下的文件个数
-113  计算pi
-114  试试虚函数
-115  clear
-116  ..
-117  UVa 429
-118  for cf 253
-119  UVa 247
-120  UVa 485 大数
-121  UVa 10067
-122  UVa 315
-123  UVa 558
+ 98  Merge pull request #3 from EndlessCheng/revert-2-world
+
+Revert "Update in.txt"
+ 99  Merge pull request #3 from EndlessCheng/revert-2-world
+
+Revert "Update in.txt"
+100  Revert &quot;Update in.txt&quot;
+101  Merge pull request #2 from EndlessCheng/world
+
+Update in.txt
+102  Merge pull request #2 from EndlessCheng/world
+
+Update in.txt
+103  Update in.txt
+104  UVa 10199
+105  UVa 555
+106  output a pyramid
+107  python challenge
+108  修改cnt值
+109  分隔出USERNAME
+110  小修改
+111  爬自己的repolist-name
+112  爬虫学习-001
+113  打印当前目录下的文件个数
+114  计算pi
+115  试试虚函数
+116  clear
+117  ..
+118  UVa 429
+119  for cf 253
+120  UVa 247
+121  UVa 485 大数
+122  UVa 10067
+123  UVa 315
 124  UVa 558
-125  POJ 1436
-126  .
-127  UVa 10102
-128  UVa 10299
-129  UVa 11743
-130  UVa 10147
-131  UVa 12108
-132  UVa 1590 WA
-133  UVa 220
-134  UVa 201
-135  UVa 1589
-136  UVa 213
-137  UVa 1442 little change
-138  UVa 1442
-139  UVa 11093
-140  O(nlogn)打印lis
+125  UVa 558
+126  POJ 1436
+127  .
+128  UVa 10102
+129  UVa 10299
+130  UVa 11743
+131  UVa 10147
+132  UVa 12108
+133  UVa 1590 WA
+134  UVa 220
+135  UVa 201
+136  UVa 1589
+137  UVa 213
+138  UVa 1442 little change
+139  UVa 1442
+140  UVa 11093
 141  O(nlogn)打印lis
-142  UVa 124 WA!!!
-143  UVa 1001
-144  UVa 821
-145  UVa 343
-146  UVa 10219
-147  UVa 130 约瑟夫环
-148  UVa 10583
-149  UVa 534
-150  UVa 661
-151  UVa 576
-152  UVa 478 点在三角形内部
-153  UVa 389
-154  UVa 10409
-155  =.=
-156  UVa 532 BFS
-157  UVa 11094
-158  UVa 260
-159  Uva 11286 Conformity
-160  怒舔Splay - 记UVa 1611
+142  O(nlogn)打印lis
+143  UVa 124 WA!!!
+144  UVa 1001
+145  UVa 821
+146  UVa 343
+147  UVa 10219
+148  UVa 130 约瑟夫环
+149  UVa 10583
+150  UVa 534
+151  UVa 661
+152  UVa 576
+153  UVa 478 点在三角形内部
+154  UVa 389
+155  UVa 10409
+156  =.=
+157  UVa 532 BFS
+158  UVa 11094
+159  UVa 260
+160  Uva 11286 Conformity
 161  怒舔Splay - 记UVa 1611
-162  最大单调栈
-163  test init_closure
-164  set and insert
-165  抛物线模板
-166  带Acc的多重背�
-167  C okok
-168  C add commit
-169  C 是牛逼呀。。
-170  clear
-171  C 自己敲的线段树，丑的一B
-172  C 求教线段树正确姿势。。。
-173  I WA
-174  prepare for acdream
-175  small modification
-176  UVa 11809 - Floating-Point Numbers
-177  small modification
-178  For CF Zepto Code Rush 2014
-179  UVA 11809 - Floating-Point Numbers
-180  UVa 11809 - Floating-Point Numbers
-181  E 膜拜甫神
-182  E
-183  I
-184  ACdream 13 C
-185  H ...
-186  G 二分
-187  E
-188  E WA
-189  C MLE
-190  J
-191  D
-192  A
-193  hunnu I
-194  UVa 11562 -with convex algorithm
-195  UVa 11562 - Hard Evidence
-196  G
-197  Create README.md
-198  H
-199  E
-200  clear for XTU
-201  v3
-202  v2
-203  v1
-204  ZOJ 3719
-205  init
-206  ok, ok
-207  init
+162  怒舔Splay - 记UVa 1611
+163  最大单调栈
+164  test init_closure
+
+注意返回值不一定随着a0,a1的增大而减小（但大趋势是这样的）
+165  set and insert
+166  抛物线模板
+167  带Acc的多重背�
+168  C okok
+169  C add commit
+170  C 是牛逼呀。。
+171  clear
+172  C 自己敲的线段树，丑的一B
+173  C 求教线段树正确姿势。。。
+174  I WA
+175  prepare for acdream
+176  small modification
+177  UVa 11809 - Floating-Point Numbers
+178  small modification
+179  For CF Zepto Code Rush 2014
+180  UVA 11809 - Floating-Point Numbers
+
+AC
+181  UVa 11809 - Floating-Point Numbers
+
+WA
+182  E  膜拜甫神
+183  E
+184  I
+185  ACdream 13 C
+186  H ...
+187  G 二分
+188  E
+189  E WA
+190  C MLE
+191  J
+192  D
+193  A
+194  hunnu I
+195  UVa 11562 -with convex algorithm
+196  UVa 11562 - Hard Evidence
+197  G
+198  Create README.md
+199  H
+200  E
+201  clear for XTU
+202  v3
+203  v2
+204  v1
+205  ZOJ 3719
+
+DP
+206  init
+207  ok, ok
+208  init
