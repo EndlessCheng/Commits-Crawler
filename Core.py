@@ -22,7 +22,7 @@ def deal(response):
 USERNAME = 'EndlessCheng'
 REPONAME = 'little_girl'
 
-fp = open(USERNAME + '-' + REPONAME + '-commits.txt', 'w')
+fp = open(USERNAME + '#' + REPONAME + '#commits.txt', 'w')
 
 cnt = 1
 i = 1
