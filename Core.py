@@ -1,0 +1,41 @@
+# -*- coding: UTF-8 -*-
+
+import urllib2  
+
+def deal(response):
+	html = response.read() 
+
+	global cnt
+	global fp
+	STEP = 24
+	end = 1000
+	while True:
+		begin = html.find('data-pjax="true" title', end, len(html)) #获取commit首位置
+		if(begin == -1):
+			break
+		begin = html.find('">', begin, len(html)) + 2
+		end = html.find('</a>', begin, len(html))
+		s = html[begin:end].decode('UTF-8').encode('GBK')
+		fp.write("%3d  %s\n" % (cnt, s))
+		cnt += 1
+
+USERNAME = 'KIDx'
+REPONAME = 'ACdream'
+
+fp = open('commit.txt', 'w')
+
+cnt = 1
+i = 1
+while(True):
+	try:
+		response = urllib2.urlopen('https://github.com/' + USERNAME + '/' + REPONAME + '/commits?page=' + str(i))  
+		deal(response)
+		print 'Cheaked', i, 'page(s).'
+		i += 1
+	except urllib2.HTTPError, err:
+		if err.code == 404:
+			print ''
+			print 'Cheaked', i - 1, 'page(s),', cnt - 1, 'commit(s) found.'			
+			break
+		else:
+			raise
